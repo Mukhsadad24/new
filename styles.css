@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: myFont;
+  src: url(AndersonGrotesk-Black.ttf);
+}
+@font-face {
+  font-family: myFont2;
+  src: url(SpaceGrotesk-Bold.ttf);
+}
+
+@font-face {
+  font-family: myFont3;
+  src: url(Ribes-Black.ttf);
+}
+
+@layer base {
+  body {
+    font-family: myFont;
+    @apply bg-[#6F4CCD] text-zinc-500;
+  }
+  h1 {
+    @apply text-9xl font-bold text-zinc-50;
+  }
+  h2 {
+    font-family: myFont2;
+    @apply text-2xl font-bold  text-zinc-50;
+  }
+  h3 {
+    @apply text-xl font-medium  text-zinc-50;
+  }
+  button {
+    @apply bg-zinc-500 text-zinc-300 px-4 py-2 rounded-lg transition duration-300;
+  }
+  h4 {
+    font-family: myFont3;
+  }
+}
+
+img:hover {
+  transition: all 0.3s;
+  transition: bounce 0.3s;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-indigo-600 hover:bg-indigo-400 text-white;
+  }
+  .btn-secondary {
+    @apply bg-transparent border-1.5 border-zinc-200 hover:border-indigo-600 text-white hover:text-indigo-600;
+  }
+
+  .card {
+    @apply p-8 rounded-xl border-1.5 border-zinc-800 min-h-[260px];
+  }
+}

@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://cloudconvert.com/
+HostUrl=https://eu-central.storage.cloudconvert.com/tasks/a2791961-de0a-4616-80a4-6211eba33b24/Ribes-Black.ttf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20231122%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20231122T004509Z&X-Amz-Expires=86400&X-Amz-Signature=98172dad73301fb633df10b8f078daf77d840470efa2ea440788295d5287dba1&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22Ribes-Black.ttf%22&response-content-type=font%2Fttf&x-id=GetObject
