@@ -4,16 +4,16 @@
 
 @font-face {
   font-family: myFont;
-  src: url(AndersonGrotesk-Black.ttf);
+  src: url("/AndersonGrotesk-Black.ttf");
 }
 @font-face {
   font-family: myFont2;
-  src: url(SpaceGrotesk-Bold.ttf);
+  src: url("/SpaceGrotesk-Bold.ttf");
 }
 
 @font-face {
   font-family: myFont3;
-  src: url(Ribes-Black.ttf);
+  src: url("/Ribes-Black.ttf");
 }
 
 @layer base {
